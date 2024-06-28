@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/fitness-social" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/workouts" element={<Workouts />} />
         {/* Add more routes as needed */}
