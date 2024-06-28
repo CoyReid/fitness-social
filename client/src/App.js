@@ -1,20 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
-import AppBar from '@mui/material/AppBar';
+import Leaderboard from './components/Leaderboard';
+import Workouts from './components/Workouts';
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        {/* Define other routes here */}
+        <Route path="/fitness-social" element={<HomePage />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/workouts" element={<Workouts />} />
+        {/* Add more routes as needed */}
       </Routes>
     </Router>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const App = () => {
+//   return <HomePage />;
+// };
 
 export default App;

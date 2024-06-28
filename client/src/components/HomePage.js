@@ -5,6 +5,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import Box from '@mui/material/Box';
 
 const HomePage = () => {
   return (
@@ -20,16 +23,29 @@ const HomePage = () => {
         </Toolbar>
       </AppBar>
       <Container component="main" maxWidth="sm" sx={{ mt: 8 }}>
-        <Typography variant="h2" component="h1" gutterBottom>
-          Welcome to the Fitness Tracker!
-        </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
-          {'Track your workouts and see how you stack up against others on the leaderboard.'}
-        </Typography>
-        <Typography variant="body1">
-          Get started by logging your first workout or checking out the top performances.
-        </Typography>
+        <Grid container spacing={3}>
+          <Grid item xs={12}>
+            <Typography variant="h2" component="h1" gutterBottom>
+              Welcome to the Fitness Tracker!
+            </Typography>
+            <Typography variant="h5" component="h2" gutterBottom>
+              {'Track your workouts and see how you stack up against others on the leaderboard.'}
+            </Typography>
+            <Typography variant="body1">
+              Get started by logging your first workout or checking out the top performances.
+            </Typography>
+          </Grid>
+        </Grid>
       </Container>
+      <Box mt={5}>
+        <Paper elevation={0} square>
+          <Container maxWidth="sm">
+            <Typography variant="body2" color="textSecondary" align="center" sx={{ py: 3 }}>
+              © {new Date().getFullYear()} Fitness Tracker. All rights reserved.
+            </Typography>
+          </Container>
+        </Paper>
+      </Box>
     </div>
   );
 };
