@@ -11,3 +11,23 @@ public class ServerApplication {
 	}
 
 }
+
+
+//Code for the AuthController.java file apparently?
+// @RestController
+// @RequestMapping("/api/auth")
+// public class AuthController {
+//     @Autowired
+//     private AuthenticationManager authenticationManager;
+//     @Autowired
+//     private JwtUtils jwtUtils;
+
+//     @PostMapping("/signin")
+//     public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
+//         Authentication authentication = authenticationManager.authenticate(
+//             new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
+//         SecurityContextHolder.getContext().setAuthentication(authentication);
+//         String jwt = jwtUtils.generateJwtToken(authentication);
+//         return ResponseEntity.ok(new JwtResponse(jwt));
+//     }
+// }
