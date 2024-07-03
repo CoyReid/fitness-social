@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 
 // Placeholder data for workouts
 const workouts = [
-  { name: 'Cardio', img: '/path/to/cardio-placeholder.jpg' },
-  { name: 'Strength', img: '/path/to/strength-placeholder.jpg' },
-  { name: 'Yoga', img: '/path/to/yoga-placeholder.jpg' },
-  { name: 'Pilates', img: '/path/to/pilates-placeholder.jpg' },
+  { name: 'Bench Press', img: '/path/to/cardio-placeholder.jpg' },
+  { name: 'Squat', img: '/path/to/strength-placeholder.jpg' },
+  { name: 'Deadlift', img: '/path/to/yoga-placeholder.jpg' },
+  { name: 'Mile run', img: '/path/to/pilates-placeholder.jpg' },
+  { name: '5k run', img: '/path/to/pilates-placeholder.jpg' },
+  { name: '10k run', img: '/path/to/pilates-placeholder.jpg' },
   // Add more workouts as needed
 ];
 
