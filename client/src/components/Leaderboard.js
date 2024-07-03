@@ -7,11 +7,12 @@ import Typography from '@mui/material/Typography';
 
 // Initial scores for demonstration
 const initialScores = {
-  workout1: [{ name: 'Alice', score: 30 }, { name: 'Bob', score: 25 }],
-  workout2: [{ name: 'Charlie', score: 20 }, { name: 'Dave', score: 15 }],
-  workout3: [{ name: 'Eve', score: 10 }, { name: 'Frank', score: 5 }],
-  workout4: [{ name: 'Grace', score: 40 }, { name: 'Heidi', score: 35 }],
-  workout5: [{ name: 'Ivan', score: 45 }, { name: 'Judy', score: 50 }],
+  BenchPress: [{ name: 'Alice', score: 30 }, { name: 'Bob', score: 25 }],
+  Squat: [{ name: 'Charlie', score: 20 }, { name: 'Dave', score: 15 }],
+  Deadlift: [{ name: 'Eve', score: 10 }, { name: 'Frank', score: 5 }],
+  MileRun: [{ name: 'Grace', score: 40 }, { name: 'Heidi', score: 35 }],
+  FiveKRun: [{ name: 'Ivan', score: 45 }, { name: 'Judy', score: 50 }],
+  TenKRun: [{ name: 'Ivan', score: 45 }, { name: 'Judy', score: 50 }],
 };
 
 const Leaderboard = () => {
