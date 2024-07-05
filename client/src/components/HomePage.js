@@ -32,7 +32,7 @@ const HomePage = () => {
               {'Track your workouts and see how you stack up against others on the leaderboard.'}
             </Typography>
             <Typography variant="body1">
-              Get started by logging your first workout or checking out the top performances.
+              Get started by logging your first workout or checking out the top performances. Keep up the hard work!
             </Typography>
           </Grid>
         </Grid>
