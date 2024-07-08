@@ -8,6 +8,7 @@ const Login = ({ onLogin }) => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Implement login logic here
+    //Need to figure out how integrate authorization and backend syncing here
     onLogin(username, password);
   };
 

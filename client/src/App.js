@@ -4,6 +4,12 @@ import HomePage from './components/HomePage';
 import Leaderboard from './components/Leaderboard';
 import Workouts from './components/Workouts';
 
+// To do:
+// First fully set up the backend, need to watch videos on Spring Boot. This includes setting up the database, creating the necessary models, and implementing the necessary controllers.
+// Then, implement the necessary API calls in the frontend to interact with the backend.
+// Next, fully set up the authorization and login/logout functionalities in the frontend.
+// Finally, implement the necessary components to display the data from the backend.
+
 const App = () => {
   return (
     <Router>
@@ -19,6 +25,8 @@ const App = () => {
 
 export default App;
 
+
+//Below code is authorization base code, need to figure out how to integrate with backend
 
 // import axios from 'axios';
 
