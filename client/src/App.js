@@ -3,6 +3,8 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import Leaderboard from './components/Leaderboard';
 import Workouts from './components/Workouts';
+import Login from './components/Login';
+import Logout from './components/Logout';
 
 // To do:
 // First fully set up the backend, need to watch videos on Spring Boot. This includes setting up the database, creating the necessary models, and implementing the necessary controllers.
@@ -17,6 +19,8 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/workouts" element={<Workouts />} />
+        {/* <Route path="/login" element={<Login />} /> */}
+        {/* <Route path="/logout" element={<Logout />} /> */}
         {/* Add more routes as needed */}
       </Routes>
     </Router>
