@@ -6,6 +6,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
 // Initial scores for demonstration
+// Need to implement the necessary API calls to fetch and update the scores, first create the database and backend
 const initialScores = {
   BenchPress: [{ name: 'Alice', score: 30 }, { name: 'Bob', score: 25 }],
   Squat: [{ name: 'Charlie', score: 20 }, { name: 'Dave', score: 15 }],
