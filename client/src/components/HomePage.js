@@ -9,6 +9,8 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
+//Future changes: add in login/logout to app bar, profile page?
+
 const HomePage = () => {
   return (
     <div>
