@@ -6,11 +6,15 @@ import Workouts from './components/Workouts';
 import Login from './components/Login';
 import Logout from './components/Logout';
 
+//FOLLOW TO DO LIST, WRITE IT OUT STEP BY STEP AND LOOK UP TRICKS FOR COPILOT BEFORE IT EXPIRES
+
 // To do:
 // First fully set up the backend, need to watch videos on Spring Boot. This includes setting up the database, creating the necessary models, and implementing the necessary controllers.
 // Then, implement the necessary API calls in the frontend to interact with the backend.
 // Next, fully set up the authorization and login/logout functionalities in the frontend.
 // Finally, implement the necessary components to display the data from the backend.
+//
+
 
 const App = () => {
   return (
