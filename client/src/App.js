@@ -13,7 +13,7 @@ import Logout from './components/Logout';
 // Then, implement the necessary API calls in the frontend to interact with the backend.
 // Next, fully set up the authorization and login/logout functionalities in the frontend.
 // Finally, implement the necessary components to display the data from the backend.
-//
+//Add additional routes as needed
 
 
 const App = () => {

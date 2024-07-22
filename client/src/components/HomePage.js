@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 //Future changes: add in login/logout to app bar, profile page?
 //Flesh out the bottom of the page and sides, make it look more realistic
 //Maybe add in a carousel of images or a video to make it more engaging
-//NEED TO SET UP BACKEND TO CONNECT TO DATABASE
+//NEED TO SET UP BACKEND TO CONNECT TO DATABASE ---- IMPORTANT!!!!!!!!!!!!!!!!
 
 const HomePage = () => {
   return (
