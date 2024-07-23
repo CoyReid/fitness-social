@@ -13,7 +13,10 @@ import Logout from './components/Logout';
 // Then, implement the necessary API calls in the frontend to interact with the backend.
 // Next, fully set up the authorization and login/logout functionalities in the frontend.
 // Finally, implement the necessary components to display the data from the backend.
-//Add additional routes as needed
+// Add additional routes as needed
+// Focus on styling last
+// Eventually, when everything is working, BEFORE DEPLOYING TO HEROKU, make sure to change the API_URL in the frontend to the Heroku URL
+// Also, make sure styling is responsive and looks good on mobile
 
 
 const App = () => {
