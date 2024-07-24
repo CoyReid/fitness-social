@@ -17,6 +17,8 @@ import Logout from './components/Logout';
 // Focus on styling last
 // Eventually, when everything is working, BEFORE DEPLOYING TO HEROKU, make sure to change the API_URL in the frontend to the Heroku URL
 // Also, make sure styling is responsive and looks good on mobile
+// Look into adding a dark mode feature? would be cool
+// Consider adding a feature to allow users to create their own workouts and save them to the database?
 
 
 const App = () => {
