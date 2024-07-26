@@ -19,6 +19,15 @@ import Logout from './components/Logout';
 // Also, make sure styling is responsive and looks good on mobile
 // Look into adding a dark mode feature? would be cool
 // Consider adding a feature to allow users to create their own workouts and save them to the database?
+// Consider adding a feature to allow users to track their progress over time?
+// Leaderboard must be real time
+// Add the ability to filter the leaderboard by different categories
+// Add the ability to search for a specific user in the leaderboard
+// Add the ability to sort the leaderboard by different categories
+// Add the ability to view a user's profile
+// Add the ability to view a user's workout history
+// add ability to upload video/pictures 
+// statistics, achievements, goals, etc.
 
 
 const App = () => {
