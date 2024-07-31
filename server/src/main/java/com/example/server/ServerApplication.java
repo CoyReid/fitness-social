@@ -13,7 +13,7 @@ public class ServerApplication {
 }
 
 
-//Code for the AuthController.java file apparently?
+//Code for the AuthController.java file in the server/src/main/java/com/example/server/controller directory
 // @RestController
 // @RequestMapping("/api/auth")
 // public class AuthController {

@@ -6,7 +6,9 @@ import Workouts from './components/Workouts';
 import Login from './components/Login';
 import Logout from './components/Logout';
 
-//FOLLOW TO DO LIST, WRITE IT OUT STEP BY STEP AND LOOK UP TRICKS FOR COPILOT BEFORE IT EXPIRES
+//FOLLOW TO DO LIST, WRITE IT OUT STEP BY STEP AND LOOK UP TRICKS FOR COPILOT
+//Need to have this app working as good as I had the others and be able to find/explain everything before next zoom tech interview 
+
 
 // To do:
 // First fully set up the backend, need to watch videos on Spring Boot. This includes setting up the database, creating the necessary models, and implementing the necessary controllers.
