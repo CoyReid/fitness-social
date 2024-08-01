@@ -30,6 +30,7 @@ import Logout from './components/Logout';
 // Add the ability to view a user's workout history
 // add ability to upload video/pictures 
 // statistics, achievements, goals, etc.
+//Further changes, hopefully not new features, but changes to the existing codebase, will be made as needed
 
 
 const App = () => {
