@@ -31,6 +31,7 @@ import Logout from './components/Logout';
 // add ability to upload video/pictures 
 // statistics, achievements, goals, etc.
 //Further changes, hopefully not new features, but changes to the existing codebase, will be made as needed
+//Stick to the plan, make sure the website looks clean and have a demo recorded at some point, with a good README 
 
 
 const App = () => {
