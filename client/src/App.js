@@ -33,6 +33,7 @@ import Logout from './components/Logout';
 //Further changes, hopefully not new features, but changes to the existing codebase, will be made as needed
 //Stick to the plan, make sure the website looks clean and have a demo recorded at some point, with a good README 
 //This comment is purely for me to keep track of what I need to do, and to keep me on track. I will be following this list step by step, and will be updating it as needed.
+// Daily commit
 
 
 const App = () => {
